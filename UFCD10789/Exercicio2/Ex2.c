@@ -21,6 +21,16 @@ int main(){
         maior = num3;
     };
 
-    printf("O maior numero e: %d", maior);
+    int menor = num1;
+
+    if (num2 < menor) {
+        menor = num2;
+    }
+    if (num3 < menor) {
+        menor = num3;
+    }
+
+    printf("O maior numero e: %d\n", maior);
+    printf("O menor numero e: %d\n", menor);
 
 }
