@@ -2,7 +2,7 @@
 
 int main(){
 
-    int num1, num2, num3;
+    int num1 = 0, num2 = 0, num3 = 0;
 
     printf("Insira o Primeiro valor: ");
     scanf("%d", &num1);
@@ -58,6 +58,5 @@ int main(){
             printf("%d %d\n", num2, num1);
         }
     }
-
 
 }
