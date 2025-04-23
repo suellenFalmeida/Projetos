@@ -2,7 +2,7 @@
 
 int main() {
 
-    int mes;
+    int mes = 0;
 
     printf("Insira o numero de um mes: ");
     scanf("%d", &mes);
@@ -15,7 +15,7 @@ int main() {
             printf("Fevereiro.\n");
             break;
         case 3:
-            printf("Março.\n");
+            printf("MarÃ§o.\n");
             break;
         case 4:
             printf("Abril.\n");
