@@ -2,7 +2,9 @@
 
 int main(){
 
-    int num1, num2, num3;
+    int num1 = 0, num2 = 0, num3 = 0;
+    int maior = 0;
+    int menor = 0;
 
     printf("Insira o Primeiro valor: ");
     scanf("%d", &num1);
@@ -11,7 +13,7 @@ int main(){
     printf("\nInsira o Terceiro valor: ");
     scanf("%d", &num3);
 
-    int maior = num1;
+    maior = num1;
 
     if (num2 > maior ){
         maior = num2;
@@ -21,7 +23,7 @@ int main(){
         maior = num3;
     };
 
-    int menor = num1;
+    menor = num1;
 
     if (num2 < menor) {
         menor = num2;
