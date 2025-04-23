@@ -2,8 +2,8 @@
 
 int main(){
 
-    float nota1, nota2, nota3, nota4, nota5, nota6, nota7, nota8, nota9, nota10;
-    float media;
+    float nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0, nota5 = 0, nota6 = 0, nota7 = 0, nota8 = 0, nota9 = 0, nota10 = 0;
+    float media = 0;
     int i = 0;
 
     printf("Nota do primeiro aluno: ");
