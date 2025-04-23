@@ -3,8 +3,8 @@
 int main(){
 
     char nomeCliente[50];
-    float compra, desconto, valorFinal;
-    int porcentagem;
+    float compra = 0, desconto = 0, valorFinal = 0;
+    int porcentagem = 0;
 
     printf("Nome do cliente: ");
     scanf("%s", nomeCliente);
