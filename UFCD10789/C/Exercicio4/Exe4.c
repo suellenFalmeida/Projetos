@@ -2,8 +2,9 @@
 
 int main(){
 
-    int saldoInicial;
-    int cheque;
+    int saldoInicial = 0;
+    int cheque = 0;
+    int saldoFinal = 0;
 
     printf("Valor inicial da conta: ");
     scanf("%d", &saldoInicial);
@@ -11,7 +12,7 @@ int main(){
     printf("Valor do cheque a ser descontado: ");
     scanf("%d", &cheque);
 
-    int saldoFinal = saldoInicial - cheque;
+    saldoFinal = saldoInicial - cheque;
 
     if( cheque <= saldoInicial ){
         printf("\nCheque Descontado. Saldo atual da conta: %d", saldoFinal);
